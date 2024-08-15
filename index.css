@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+     position:relative;
+     top: 0 ;
+     left: 0;
+     padding: 35px 12%;
+     display:flex;
+     justify-content: space-between;
+     z-index:100;
+     color:white;
+     background-color:#00246B; 
+
+}
+.logo{
+    font-size:25px;
+    color:white;
+    font-weight:600;
+    transition:0.3s ease;
+}
+.logo:hover{
+    color:#f04368;
+    text-shadow: 0 0 25px #f04368,
+                0 0 50px #f04368;
+    transform: scale(1.1);
+}
+span{
+    color:#f04368;
+}
+.navbar a{
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+    padding-bottom: 15px;
+    margin:0 25px;
+    border-bottom:3px solid transparent;
+    transition: 0.3s ease;
+    
+}
+.navbar a:hover
+{
+    color:#f04368;
+    border-bottom:3px solid #f04368;
+}.home{
+    width:100%;
+    min-height:100vh;
+    background:white;
+    display:flex;
+    align-items:center;
+    gap:7em;
+    padding:30px 12% 0px;
+    background-color: lightblue;
+}
+
+.home-content{
+    max-width:800px;
+    color: #f04368;
+}
+.home-content h1{
+    top:10px;
+    color:#00246B ;
+}
+.home-content h3{
+    font-size:45px;
+    color:#00246B;
+
+}
+.home-content p{
+    font-size:18px;
+    margin:25px 0 30px;
+    color:black;
+    display:inline-flex;
+}
+.img-box img{
+    border-radius:50%;
+     width:450px;
+     height:450px;
+     margin-left: 100px;
+     float:inline-end;
+     border: 5px solid rgb(166, 219, 233);
+    box-shadow: 0 0 25px #b7c8eb,
+                0 0 50px #b7c8e9;
+}
+
+.education {
+    padding:120px 12%;
+    background-color: lightblue;
+    
+}
+
+.education h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00246B;
+    margin-bottom:80px;
+    
+   
+}
+
+.education-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 8px 16px 32px rgb(51, 191, 238);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 8px 16px rgb(162, 198, 221);
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #00246B;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.project {
+    padding:120px 12%;
+    background-color: lightblue;
+    scroll-behavior: smooth;
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00246B;
+    margin-bottom:80px;
+    
+   
+}
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+    
+    
+
+}
+.project-cards:hover{
+    box-shadow: 0 8px 16px rgb(8, 58, 88),
+                
+}
